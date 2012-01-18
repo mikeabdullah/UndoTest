@@ -164,6 +164,7 @@
     }
     else
     {
+        // Commenting out the next line removes the automatic core data groups
         [[self foo] setTestTime:[NSDate date]];
         NSInteger undoGroupCount = [undoManager groupingLevel];
         NSLog(@"Undo grouping level count at change: %i", undoGroupCount);
