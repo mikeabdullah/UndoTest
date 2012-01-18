@@ -18,7 +18,7 @@
 
 @property (nonatomic, retain) BBQFoo *foo;
 
-- (void)handlePanGestuer:(UIPanGestureRecognizer *)gesture;
+- (void)handlePanGesture:(UIPanGestureRecognizer *)gesture;
 
 @end
 
@@ -64,7 +64,7 @@
         [self setFoo:[foos objectAtIndex:0]];
     }
     
-    UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePanGestuer:)];
+    UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePanGesture:)];
     [panGesture setMinimumNumberOfTouches:1];
     [panGesture setMaximumNumberOfTouches:1];
     [[self dragView] addGestureRecognizer:panGesture];
@@ -79,7 +79,7 @@
 
 #pragma mark - Pan Gesture Handler
 
-- (void)handlePanGestuer:(UIPanGestureRecognizer *)gesture
+- (void)handlePanGesture:(UIPanGestureRecognizer *)gesture
 {
     NSUndoManager *undoManager = [[UIApp managedObjectContext] undoManager];
     NSMutableString *stateString = [NSMutableString stringWithString:@"Gesture State: "];
