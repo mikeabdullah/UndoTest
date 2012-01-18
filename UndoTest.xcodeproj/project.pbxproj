@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B65AC98C14C72BC7003978EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65AC98B14C72BC7003978EF /* UIKit.framework */; };
+		B65AC98E14C72BC7003978EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65AC98D14C72BC7003978EF /* Foundation.framework */; };
+		B65AC99014C72BC7003978EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65AC98F14C72BC7003978EF /* CoreGraphics.framework */; };
+		B65AC99214C72BC7003978EF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65AC99114C72BC7003978EF /* CoreData.framework */; };
+		B65AC99814C72BC7003978EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B65AC99614C72BC7003978EF /* InfoPlist.strings */; };
+		B65AC99A14C72BC7003978EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65AC99914C72BC7003978EF /* main.m */; };
+		B65AC99E14C72BC7003978EF /* BBQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B65AC99D14C72BC7003978EF /* BBQAppDelegate.m */; };
+		B65AC9A114C72BC7003978EF /* UndoTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B65AC99F14C72BC7003978EF /* UndoTest.xcdatamodeld */; };
+		B65AC9A414C72BC7003978EF /* BBQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65AC9A314C72BC7003978EF /* BBQMainViewController.m */; };
+		B65AC9A714C72BC7003978EF /* BBQFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65AC9A614C72BC7003978EF /* BBQFlipsideViewController.m */; };
+		B65AC9AA14C72BC7003978EF /* BBQMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65AC9A814C72BC7003978EF /* BBQMainViewController.xib */; };
+		B65AC9AD14C72BC8003978EF /* BBQFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65AC9AB14C72BC8003978EF /* BBQFlipsideViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B65AC98714C72BC7003978EF /* UndoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UndoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65AC98B14C72BC7003978EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B65AC98D14C72BC7003978EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B65AC98F14C72BC7003978EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B65AC99114C72BC7003978EF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B65AC99514C72BC7003978EF /* UndoTest-Info.plist */ = {isa = PBXFileReference; path = "UndoTest-Info.plist"; sourceTree = "<group>"; };
+		B65AC99714C72BC7003978EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B65AC99914C72BC7003978EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B65AC99B14C72BC7003978EF /* UndoTest-Prefix.pch */ = {isa = PBXFileReference; path = "UndoTest-Prefix.pch"; sourceTree = "<group>"; };
+		B65AC99C14C72BC7003978EF /* BBQAppDelegate.h */ = {isa = PBXFileReference; path = BBQAppDelegate.h; sourceTree = "<group>"; };
+		B65AC99D14C72BC7003978EF /* BBQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBQAppDelegate.m; sourceTree = "<group>"; };
+		B65AC9A014C72BC7003978EF /* UndoTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UndoTest.xcdatamodel; sourceTree = "<group>"; };
+		B65AC9A214C72BC7003978EF /* BBQMainViewController.h */ = {isa = PBXFileReference; path = BBQMainViewController.h; sourceTree = "<group>"; };
+		B65AC9A314C72BC7003978EF /* BBQMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBQMainViewController.m; sourceTree = "<group>"; };
+		B65AC9A514C72BC7003978EF /* BBQFlipsideViewController.h */ = {isa = PBXFileReference; path = BBQFlipsideViewController.h; sourceTree = "<group>"; };
+		B65AC9A614C72BC7003978EF /* BBQFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBQFlipsideViewController.m; sourceTree = "<group>"; };
+		B65AC9A914C72BC7003978EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BBQMainViewController.xib; sourceTree = "<group>"; };
+		B65AC9AC14C72BC8003978EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BBQFlipsideViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B65AC98414C72BC7003978EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65AC98C14C72BC7003978EF /* UIKit.framework in Frameworks */,
+				B65AC98E14C72BC7003978EF /* Foundation.framework in Frameworks */,
+				B65AC99014C72BC7003978EF /* CoreGraphics.framework in Frameworks */,
+				B65AC99214C72BC7003978EF /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B65AC97C14C72BC7003978EF = {
+			isa = PBXGroup;
+			children = (
+				B65AC99314C72BC7003978EF /* UndoTest */,
+				B65AC98A14C72BC7003978EF /* Frameworks */,
+				B65AC98814C72BC7003978EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B65AC98814C72BC7003978EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B65AC98714C72BC7003978EF /* UndoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B65AC98A14C72BC7003978EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B65AC98B14C72BC7003978EF /* UIKit.framework */,
+				B65AC98D14C72BC7003978EF /* Foundation.framework */,
+				B65AC98F14C72BC7003978EF /* CoreGraphics.framework */,
+				B65AC99114C72BC7003978EF /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B65AC99314C72BC7003978EF /* UndoTest */ = {
+			isa = PBXGroup;
+			children = (
+				B65AC99C14C72BC7003978EF /* BBQAppDelegate.h */,
+				B65AC99D14C72BC7003978EF /* BBQAppDelegate.m */,
+				B65AC9A214C72BC7003978EF /* BBQMainViewController.h */,
+				B65AC9A314C72BC7003978EF /* BBQMainViewController.m */,
+				B65AC9A514C72BC7003978EF /* BBQFlipsideViewController.h */,
+				B65AC9A614C72BC7003978EF /* BBQFlipsideViewController.m */,
+				B65AC9A814C72BC7003978EF /* BBQMainViewController.xib */,
+				B65AC9AB14C72BC8003978EF /* BBQFlipsideViewController.xib */,
+				B65AC99F14C72BC7003978EF /* UndoTest.xcdatamodeld */,
+				B65AC99414C72BC7003978EF /* Supporting Files */,
+			);
+			path = UndoTest;
+			sourceTree = "<group>";
+		};
+		B65AC99414C72BC7003978EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B65AC99514C72BC7003978EF /* UndoTest-Info.plist */,
+				B65AC99614C72BC7003978EF /* InfoPlist.strings */,
+				B65AC99914C72BC7003978EF /* main.m */,
+				B65AC99B14C72BC7003978EF /* UndoTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B65AC98614C72BC7003978EF /* UndoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65AC9B014C72BC8003978EF /* Build configuration list for PBXNativeTarget "UndoTest" */;
+			buildPhases = (
+				B65AC98314C72BC7003978EF /* Sources */,
+				B65AC98414C72BC7003978EF /* Frameworks */,
+				B65AC98514C72BC7003978EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UndoTest;
+			productName = UndoTest;
+			productReference = B65AC98714C72BC7003978EF /* UndoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B65AC97E14C72BC7003978EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BBQ;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = BitBQ;
+			};
+			buildConfigurationList = B65AC98114C72BC7003978EF /* Build configuration list for PBXProject "UndoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B65AC97C14C72BC7003978EF;
+			productRefGroup = B65AC98814C72BC7003978EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B65AC98614C72BC7003978EF /* UndoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B65AC98514C72BC7003978EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65AC99814C72BC7003978EF /* InfoPlist.strings in Resources */,
+				B65AC9AA14C72BC7003978EF /* BBQMainViewController.xib in Resources */,
+				B65AC9AD14C72BC8003978EF /* BBQFlipsideViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B65AC98314C72BC7003978EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65AC99A14C72BC7003978EF /* main.m in Sources */,
+				B65AC99E14C72BC7003978EF /* BBQAppDelegate.m in Sources */,
+				B65AC9A114C72BC7003978EF /* UndoTest.xcdatamodeld in Sources */,
+				B65AC9A414C72BC7003978EF /* BBQMainViewController.m in Sources */,
+				B65AC9A714C72BC7003978EF /* BBQFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B65AC99614C72BC7003978EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65AC99714C72BC7003978EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B65AC9A814C72BC7003978EF /* BBQMainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65AC9A914C72BC7003978EF /* en */,
+			);
+			name = BBQMainViewController.xib;
+			sourceTree = "<group>";
+		};
+		B65AC9AB14C72BC8003978EF /* BBQFlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65AC9AC14C72BC8003978EF /* en */,
+			);
+			name = BBQFlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B65AC9AE14C72BC8003978EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B65AC9AF14C72BC8003978EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B65AC9B114C72BC8003978EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UndoTest/UndoTest-Prefix.pch";
+				INFOPLIST_FILE = "UndoTest/UndoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B65AC9B214C72BC8003978EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UndoTest/UndoTest-Prefix.pch";
+				INFOPLIST_FILE = "UndoTest/UndoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B65AC98114C72BC7003978EF /* Build configuration list for PBXProject "UndoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65AC9AE14C72BC8003978EF /* Debug */,
+				B65AC9AF14C72BC8003978EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65AC9B014C72BC8003978EF /* Build configuration list for PBXNativeTarget "UndoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65AC9B114C72BC8003978EF /* Debug */,
+				B65AC9B214C72BC8003978EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B65AC99F14C72BC7003978EF /* UndoTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B65AC9A014C72BC7003978EF /* UndoTest.xcdatamodel */,
+			);
+			currentVersion = B65AC9A014C72BC7003978EF /* UndoTest.xcdatamodel */;
+			path = UndoTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B65AC97E14C72BC7003978EF /* Project object */;
+}
