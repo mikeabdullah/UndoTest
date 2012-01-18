@@ -17,6 +17,10 @@
 		B65AC9A114C72BC7003978EF /* UndoTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B65AC99F14C72BC7003978EF /* UndoTest.xcdatamodeld */; };
 		B65AC9A414C72BC7003978EF /* BBQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65AC9A314C72BC7003978EF /* BBQMainViewController.m */; };
 		B65AC9AA14C72BC7003978EF /* BBQMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65AC9A814C72BC7003978EF /* BBQMainViewController.xib */; };
+		B65AC9BB14C72DB7003978EF /* _BBQBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B65AC9B414C72DB7003978EF /* _BBQBar.m */; };
+		B65AC9BC14C72DB7003978EF /* _BBQFoo.m in Sources */ = {isa = PBXBuildFile; fileRef = B65AC9B614C72DB7003978EF /* _BBQFoo.m */; };
+		B65AC9BD14C72DB7003978EF /* BBQBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B65AC9B814C72DB7003978EF /* BBQBar.m */; };
+		B65AC9BE14C72DB7003978EF /* BBQFoo.m in Sources */ = {isa = PBXBuildFile; fileRef = B65AC9BA14C72DB7003978EF /* BBQFoo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,14 @@
 		B65AC9A214C72BC7003978EF /* BBQMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBQMainViewController.h; sourceTree = "<group>"; };
 		B65AC9A314C72BC7003978EF /* BBQMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBQMainViewController.m; sourceTree = "<group>"; };
 		B65AC9A914C72BC7003978EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BBQMainViewController.xib; sourceTree = "<group>"; };
+		B65AC9B314C72DB7003978EF /* _BBQBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _BBQBar.h; sourceTree = "<group>"; };
+		B65AC9B414C72DB7003978EF /* _BBQBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _BBQBar.m; sourceTree = "<group>"; };
+		B65AC9B514C72DB7003978EF /* _BBQFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _BBQFoo.h; sourceTree = "<group>"; };
+		B65AC9B614C72DB7003978EF /* _BBQFoo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _BBQFoo.m; sourceTree = "<group>"; };
+		B65AC9B714C72DB7003978EF /* BBQBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBQBar.h; sourceTree = "<group>"; };
+		B65AC9B814C72DB7003978EF /* BBQBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBQBar.m; sourceTree = "<group>"; };
+		B65AC9B914C72DB7003978EF /* BBQFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBQFoo.h; sourceTree = "<group>"; };
+		B65AC9BA14C72DB7003978EF /* BBQFoo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBQFoo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,14 @@
 		B65AC99314C72BC7003978EF /* UndoTest */ = {
 			isa = PBXGroup;
 			children = (
+				B65AC9B314C72DB7003978EF /* _BBQBar.h */,
+				B65AC9B414C72DB7003978EF /* _BBQBar.m */,
+				B65AC9B514C72DB7003978EF /* _BBQFoo.h */,
+				B65AC9B614C72DB7003978EF /* _BBQFoo.m */,
+				B65AC9B714C72DB7003978EF /* BBQBar.h */,
+				B65AC9B814C72DB7003978EF /* BBQBar.m */,
+				B65AC9B914C72DB7003978EF /* BBQFoo.h */,
+				B65AC9BA14C72DB7003978EF /* BBQFoo.m */,
 				B65AC99C14C72BC7003978EF /* BBQAppDelegate.h */,
 				B65AC99D14C72BC7003978EF /* BBQAppDelegate.m */,
 				B65AC9A214C72BC7003978EF /* BBQMainViewController.h */,
@@ -173,6 +193,10 @@
 				B65AC99E14C72BC7003978EF /* BBQAppDelegate.m in Sources */,
 				B65AC9A114C72BC7003978EF /* UndoTest.xcdatamodeld in Sources */,
 				B65AC9A414C72BC7003978EF /* BBQMainViewController.m in Sources */,
+				B65AC9BB14C72DB7003978EF /* _BBQBar.m in Sources */,
+				B65AC9BC14C72DB7003978EF /* _BBQFoo.m in Sources */,
+				B65AC9BD14C72DB7003978EF /* BBQBar.m in Sources */,
+				B65AC9BE14C72DB7003978EF /* BBQFoo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
