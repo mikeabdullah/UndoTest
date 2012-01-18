@@ -16,9 +16,7 @@
 		B65AC99E14C72BC7003978EF /* BBQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B65AC99D14C72BC7003978EF /* BBQAppDelegate.m */; };
 		B65AC9A114C72BC7003978EF /* UndoTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B65AC99F14C72BC7003978EF /* UndoTest.xcdatamodeld */; };
 		B65AC9A414C72BC7003978EF /* BBQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65AC9A314C72BC7003978EF /* BBQMainViewController.m */; };
-		B65AC9A714C72BC7003978EF /* BBQFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65AC9A614C72BC7003978EF /* BBQFlipsideViewController.m */; };
 		B65AC9AA14C72BC7003978EF /* BBQMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65AC9A814C72BC7003978EF /* BBQMainViewController.xib */; };
-		B65AC9AD14C72BC8003978EF /* BBQFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65AC9AB14C72BC8003978EF /* BBQFlipsideViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +34,7 @@
 		B65AC9A014C72BC7003978EF /* UndoTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UndoTest.xcdatamodel; sourceTree = "<group>"; };
 		B65AC9A214C72BC7003978EF /* BBQMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBQMainViewController.h; sourceTree = "<group>"; };
 		B65AC9A314C72BC7003978EF /* BBQMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBQMainViewController.m; sourceTree = "<group>"; };
-		B65AC9A514C72BC7003978EF /* BBQFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBQFlipsideViewController.h; sourceTree = "<group>"; };
-		B65AC9A614C72BC7003978EF /* BBQFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBQFlipsideViewController.m; sourceTree = "<group>"; };
 		B65AC9A914C72BC7003978EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BBQMainViewController.xib; sourceTree = "<group>"; };
-		B65AC9AC14C72BC8003978EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BBQFlipsideViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,10 +87,7 @@
 				B65AC99D14C72BC7003978EF /* BBQAppDelegate.m */,
 				B65AC9A214C72BC7003978EF /* BBQMainViewController.h */,
 				B65AC9A314C72BC7003978EF /* BBQMainViewController.m */,
-				B65AC9A514C72BC7003978EF /* BBQFlipsideViewController.h */,
-				B65AC9A614C72BC7003978EF /* BBQFlipsideViewController.m */,
 				B65AC9A814C72BC7003978EF /* BBQMainViewController.xib */,
-				B65AC9AB14C72BC8003978EF /* BBQFlipsideViewController.xib */,
 				B65AC99F14C72BC7003978EF /* UndoTest.xcdatamodeld */,
 				B65AC99414C72BC7003978EF /* Supporting Files */,
 			);
@@ -167,7 +159,6 @@
 			files = (
 				B65AC99814C72BC7003978EF /* InfoPlist.strings in Resources */,
 				B65AC9AA14C72BC7003978EF /* BBQMainViewController.xib in Resources */,
-				B65AC9AD14C72BC8003978EF /* BBQFlipsideViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +173,6 @@
 				B65AC99E14C72BC7003978EF /* BBQAppDelegate.m in Sources */,
 				B65AC9A114C72BC7003978EF /* UndoTest.xcdatamodeld in Sources */,
 				B65AC9A414C72BC7003978EF /* BBQMainViewController.m in Sources */,
-				B65AC9A714C72BC7003978EF /* BBQFlipsideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,14 +193,6 @@
 				B65AC9A914C72BC7003978EF /* en */,
 			);
 			name = BBQMainViewController.xib;
-			sourceTree = "<group>";
-		};
-		B65AC9AB14C72BC8003978EF /* BBQFlipsideViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B65AC9AC14C72BC8003978EF /* en */,
-			);
-			name = BBQFlipsideViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
