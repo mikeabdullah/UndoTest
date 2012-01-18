@@ -95,6 +95,7 @@
     if (coordinator != nil) {
         __managedObjectContext = [[NSManagedObjectContext alloc] init];
         [__managedObjectContext setPersistentStoreCoordinator:coordinator];
+        [__managedObjectContext setUndoManager:[[[NSUndoManager alloc] init] autorelease]];
     }
     return __managedObjectContext;
 }

@@ -10,6 +10,7 @@
 
 @interface BBQMainViewController : UIViewController
 
+@property (retain, nonatomic) IBOutlet UIView *dragView;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @end

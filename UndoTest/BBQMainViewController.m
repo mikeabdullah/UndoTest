@@ -14,6 +14,7 @@
 
 @implementation BBQMainViewController
 
+@synthesize dragView = _dragView;
 @synthesize managedObjectContext = _managedObjectContext;
 
 - (void)viewDidLoad
@@ -24,18 +25,15 @@
 
 - (void)viewDidUnload
 {
+    [self setDragView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return YES;
 }
 
 - (void)dealloc
 {
     [_managedObjectContext release];
+    [_dragView release];
     [super dealloc];
 }
 
