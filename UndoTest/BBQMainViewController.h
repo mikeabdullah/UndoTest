@@ -13,4 +13,5 @@
 @property (retain, nonatomic) IBOutlet UIView *dragView;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
+- (IBAction)undoButtonTapped:(id)sender;
 @end

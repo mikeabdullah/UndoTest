@@ -177,4 +177,18 @@
     }
 }
 
+- (IBAction)undoButtonTapped:(id)sender 
+{
+    NSUndoManager *undoManager = [[UIApp managedObjectContext] undoManager];
+    id undoStack = nil;
+    
+    object_getInstanceVariable(undoManager, "_undoStack", &undoStack);
+    NSLog(@"Undo stack before undo: %@", [undoStack description]);
+
+    [undoManager undo];
+    
+    undoStack = nil;
+    object_getInstanceVariable(undoManager, "_undoStack", &undoStack);
+    NSLog(@"Undo stack after undo: %@", [undoStack description]);
+}
 @end
