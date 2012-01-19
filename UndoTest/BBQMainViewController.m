@@ -111,6 +111,57 @@
     if (gesture.state == UIGestureRecognizerStateBegan)
     {
         [[UIApp managedObjectContext] processPendingChanges];
+        [undoManager beginUndoGrouping];    // want a group to encompass whole gesture
+    }
+    else if (gesture.state == UIGestureRecognizerStateEnded)
+    {
+        [[UIApp managedObjectContext] processPendingChanges];
+        [undoManager endUndoGrouping];
+    }
+    else if (gesture.state == UIGestureRecognizerStateCancelled)
+    {
+        [[UIApp managedObjectContext] processPendingChanges];
+        [undoManager endUndoGrouping];
+    }
+    else
+    {
+        NSDate *timestamp = [NSDate date];
+        [[self foo] setTestTime:timestamp];
+    }
+}
+
+/*- (void)handlePanGesture:(UIPanGestureRecognizer *)gesture
+{
+    NSUndoManager *undoManager = [[UIApp managedObjectContext] undoManager];
+    NSMutableString *stateString = [NSMutableString stringWithString:@"Gesture State: "];
+    switch (gesture.state) {
+        case UIGestureRecognizerStateBegan:
+            [stateString appendString:@"Began"];
+            break;
+        case UIGestureRecognizerStateEnded:
+            [stateString appendString:@"Ended"];
+            break;
+        case UIGestureRecognizerStateCancelled:
+            [stateString appendString:@"Cancelled"];
+            break;
+        case UIGestureRecognizerStateFailed:
+            [stateString appendString:@"Failed"];
+            break;
+        case UIGestureRecognizerStateChanged:
+            [stateString appendString:@"Changed"];
+            break;
+        case UIGestureRecognizerStatePossible:
+            [stateString appendString:@"Possible"];
+            break;
+        default:
+            break;
+    }
+    
+    NSLog(@"%@", stateString);
+    
+    if (gesture.state == UIGestureRecognizerStateBegan)
+    {
+        [[UIApp managedObjectContext] processPendingChanges];
         id undoStack = nil;
         
         object_getInstanceVariable(undoManager, "_undoStack", &undoStack);
@@ -175,7 +226,7 @@
         
         
     }
-}
+}*/
 
 - (IBAction)undoButtonTapped:(id)sender 
 {
@@ -186,6 +237,8 @@
     NSLog(@"Undo stack before undo: %@", [undoStack description]);
 
     [undoManager undo];
+    
+    NSLog(@"Undid back to timestamp: %@", [[self foo] testTime]);
     
     undoStack = nil;
     object_getInstanceVariable(undoManager, "_undoStack", &undoStack);
